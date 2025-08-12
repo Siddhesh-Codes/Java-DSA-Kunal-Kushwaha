@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Palindrome {
+public class Palindrome1 {
  public static boolean isPalindrome(String str){
   int left = 0;
   int right = str.length()- 1;
