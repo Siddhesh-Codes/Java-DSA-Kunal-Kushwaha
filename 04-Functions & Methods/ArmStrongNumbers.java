@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 public class ArmStrongNumbers {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//        System.out.println(isArmstrong(num));
 
-        int num = sc.nextInt();
-        System.out.println(isArmstrong(num));
+        for (int i = 100; i < 1000; i++) {
+            if (isArmstrong(i)){
+                System.out.print(i +" ");
+            }
+        }
     }
 
     static boolean isArmstrong (int n) {
