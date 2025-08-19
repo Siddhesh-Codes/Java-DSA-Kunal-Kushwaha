@@ -7,9 +7,11 @@ public class PassingInFunction {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[5];
 
+        // Take the input
         for (int i = 0; i < num.length; i++) {
             num[i] = sc.nextInt();
         }
+
 
         System.out.println(Arrays.toString(num));
         printArray(num);

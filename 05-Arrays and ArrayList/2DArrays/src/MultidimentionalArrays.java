@@ -26,8 +26,8 @@ public class MultidimentionalArrays {
 //        }
 
 //        Using Enhanced For loop
-//        for(int[] nums: arr){
-//            System.out.println(Arrays.toString(nums));
-//        }
+        for(int[] nums: arr){
+            System.out.println(Arrays.toString(nums));
+        }
     }
 }
