@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Pattern28 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number of Lines: ");
         int n = sc.nextInt();
 
         Pattern(n);
@@ -24,5 +25,25 @@ public class Pattern28 {
             System.out.println();
         }
     }
-
 }
+
+/*
+Key Formula:
+totalCols = row > n ? 2 * n - row : row;
+
+spaces = n - totalCols;
+
+Output:
+Enter the Number of Lines: 5
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+ */

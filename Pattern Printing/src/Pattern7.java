@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Pattern7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number of Lines: ");
         int n = sc.nextInt();
 
         Pattern(n);
@@ -22,3 +23,19 @@ public class Pattern7 {
         }
     }
 }
+
+/*
+Key Formula:
+totalCols = n - row;
+
+spaces = n - totalCols;
+
+Output:
+Enter the Number of Lines: 5
+*****
+ ****
+  ***
+   **
+    *
+
+ */

@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Pattern2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number of Lines: ");
         int n = sc.nextInt();
 
         Pattern(n);
@@ -19,3 +20,15 @@ public class Pattern2 {
         }
     }
 }
+
+/*
+Output:
+
+Enter the Number of Lines: 5
+*
+* *
+* * *
+* * * *
+* * * * *
+
+ */
